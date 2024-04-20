@@ -8,9 +8,9 @@
   scroll-behavior: smooth;
 }
 :root{
-    --primary-color:#ef0e0e;
-    --black-color:#0c0c0c;
-    --white-color:#f6f2f2;
+    --primary-color:#fc0606;
+    --black-color:#0b0f23;
+    --white-color:#faf6f6;
 
 }
 body{
@@ -21,7 +21,7 @@ body{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1ecec;
+    background: #161616;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--primary-color);
@@ -72,7 +72,7 @@ nav .navbar .menu li{
 nav .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color:var(--black-color);
+  color:var(--white-color);
   padding:6px 0;
   transition: all 0.4s ease;
 }
@@ -261,7 +261,7 @@ section .button button:hover{
 
 /* My Skills CSS */
 .skills{
-  background:#ededf1;
+  background:#f7f7f9;
 }
 .skills .content{
   padding:40px 0;
@@ -357,7 +357,7 @@ section .button button:hover{
 
 /* Contact Me CSS */
 .contact{
-  background: #f0f8ff;
+  background: #f8fdfe;
 }
 .contact .content{
   margin:0 auto;
